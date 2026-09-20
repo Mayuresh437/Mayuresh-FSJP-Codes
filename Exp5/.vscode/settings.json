@@ -1,0 +1,21 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "logindata",
+            "username": "root",
+            "password": "Mayuresh#437",
+            "database": "exp5db",
+            "connectionTimeout": 30
+        }
+    ]
+}
