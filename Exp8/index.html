@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Hello</h1>
+    <button onclick="changeTitle()">Change Title</button>
+
+    <script>
+        function changeTitle(){
+            let h1Ele = document.querySelector("#title");
+            h1Ele.innerText = "Welcome";
+            h1Ele.style.color = "red";
+        }
+    </script>
+</body>
+</html>
