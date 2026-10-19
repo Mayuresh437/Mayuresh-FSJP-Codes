@@ -1,0 +1,64 @@
+/* General page layout styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f9;
+}
+
+/* Container for grouping the buttons */
+.button-container {
+    margin-bottom: 30px;
+}
+
+/* Base button styles */
+.btn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+/* Hover and active user interaction states */
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Specific background colors for each button */
+.btn-red { background-color: #e53935; }
+.btn-green { background-color: #4caf50; }
+.btn-blue { background-color: #1e88e5; }
+.btn-yellow { 
+    background-color: #fdd835; 
+    color: #333; /* Dark text for contrast readability */
+}
+
+/* Target container for your JavaScript output */
+#message {
+    margin-top: 20px;
+    min-height: 40px; /* Reserves space so page layout doesn't jump */
+}
+
+/* Base message line styling */
+.msg-text {
+    display: none; /* Hidden by default; show using element.style.display = 'block' in JS */
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Pre-styled text colors to match the themes */
+#msg-red { color: #e53935; }
+#msg-green { color: #4caf50; }
+#msg-blue { color: #1e88e5; }
+#msg-yellow { color: #b79500; }
